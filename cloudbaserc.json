@@ -8,9 +8,11 @@
       "server": {
         "use": "@cloudbase/framework-plugin-container",
         "inputs": {
-          "cpu": 0.5,
-          "mem": 1,
+          "uploadType": "image",
           "serviceName": "strapi",
+          "imageInfo": {
+            "imageUrl": "strapi/strapi"
+          },
           "servicePath": "/",
           "containerPort": 1337,
           "volumeMounts": {
