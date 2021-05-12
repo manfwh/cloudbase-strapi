@@ -12,13 +12,7 @@
           "mem": 1,
           "serviceName": "strapi",
           "servicePath": "/",
-          "uploadType": "repository",
           "containerPort": 1337,
-          "codeDetail": {
-            "name": "strapi-docker",
-            "url": "https://github.com/strapi/strapi-docker"
-          },
-          "dockerfilePath": "./strapi/Dockerfile",
           "volumeMounts": {
             "/srv/app": "strapi-cfs"
           }
