@@ -15,7 +15,7 @@
           "uploadType": "image",
           "containerPort": 1337,
           "imageInfo": {
-            "imageUrl": "strapi/strapi"
+            "imageUrl": "strapi/strapi:latest"
           },
           "volumeMounts": {
             "/srv/app": "strapi-cfs"
